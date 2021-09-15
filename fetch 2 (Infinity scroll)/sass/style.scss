@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+    
+.container{
+    width: 100%;
+    background-color:rgb(245, 234, 217);
+    min-height: 700px;
+}
+
+.line-wrapper{
+    padding-top: 1px;
+    padding-bottom: 30px;
+    width: 400px;
+    margin: 0px auto;
+    background-color:rgb(229, 217, 240)
+
+}
+
+.btn-users{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+li{
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    img{
+        display: block;
+        margin-right: 20px;
+    }
+}
